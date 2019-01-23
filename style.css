@@ -1,0 +1,29 @@
+#yourName{
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: rebeccapurple;
+    font-family: 'Fontdiner Swanky';
+    text-transform: uppercase;
+    }
+    #heading{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rebeccapurple;
+    font-family: 'Fontdiner Swanky';
+    }
+    #footer {
+    border-top-color:rebeccapurple;
+    border-top-style: solid;
+    border-top-width: 10px;
+    padding-top: 25px;
+    font-size: 10px;
+    }
+    .projectName{
+    background-color: rebeccapurple;
+    font-family: 'Fontdiner Swanky';
+    }
+    input[type=submit] {
+        background-color: rebeccapurple;
+        border: none;
+        color: white;
+      }
