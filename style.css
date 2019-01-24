@@ -27,3 +27,9 @@
         border: none;
         color: white;
       }
+    #myPic {
+        filter: drop-shadow(8px 8px 10px rebeccapurple);
+    }
+img:hover {
+    opacity: .50;
+}
