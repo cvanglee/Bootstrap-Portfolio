@@ -1,4 +1,7 @@
-#yourName{
+    nav:hover a{
+    color: rebeccapurple;
+    }
+    #yourName{
     font-size: 30px;
     font-weight: bolder;
     background-color: rebeccapurple;
@@ -11,11 +14,16 @@
     color: rebeccapurple;
     font-family: 'Fontdiner Swanky';
     }
+    a img{
+    width: 260px;
+    height: 200px;    
+    }
     #footer {
     border-top-color:rebeccapurple;
     border-top-style: solid;
     border-top-width: 10px;
     padding-top: 25px;
+    margin-top: 20px;
     font-size: 10px;
     }
     .projectName{
