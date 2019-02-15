@@ -15,8 +15,9 @@
     font-family: 'Fontdiner Swanky';
     }
     a img{
-    width: 260px;
-    height: 200px;    
+    width: 249px;
+    height: 188px;
+    filter: blur(5px)    
     }
     #footer {
     border-top-color:rebeccapurple;
@@ -26,18 +27,30 @@
     margin-top: 20px;
     font-size: 10px;
     }
-    .projectName{
+    .projectName {
     background-color: rebeccapurple;
     font-family: 'Fontdiner Swanky';
+    margin-left: 9px;
+    width: 100%;
+    }
+    .gitLink {
+        color: rebeccapurple;
     }
     input[type=submit] {
         background-color: rebeccapurple;
         border: none;
         color: white;
       }
-    #myPic {
+    #myPic img{
         filter: drop-shadow(8px 8px 10px rebeccapurple);
+        width: 230px;
+        height: auto;
+        border-radius: 50px;
     }
-img:hover {
-    opacity: .50;
-}
+    img:hover {
+    filter: blur(0);
+    }
+    .gitLink:hover {
+        font-family: 'Fontdiner Swanky';
+        color: gray;
+    }
