@@ -1,5 +1,9 @@
-    nav:hover a{
-    color: rebeccapurple;
+    nav {
+        filter: drop-shadow(8px 8px 10px rebeccapurple);
+    }
+    nav a:hover {
+        color: rebeccapurple;
+        font-family: 'Fontdiner Swanky';    
     }
     #yourName{
     font-size: 30px;
@@ -17,7 +21,7 @@
     a img{
     width: 249px;
     height: 188px;
-    filter: blur(5px)    
+    filter: blur(3px)    
     }
     #footer {
     border-top-color:rebeccapurple;
@@ -34,7 +38,7 @@
     width: 100%;
     }
     .gitLink {
-        color: rebeccapurple;
+        color: gray;
     }
     input[type=submit] {
         background-color: rebeccapurple;
@@ -52,5 +56,5 @@
     }
     .gitLink:hover {
         font-family: 'Fontdiner Swanky';
-        color: gray;
+        color: rebeccapurple;
     }
